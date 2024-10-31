@@ -1,0 +1,39 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: var(--c-primary);
+}
+
+.header-logo span {
+  color: var(--c-blue);
+}
+
+.nav-list__link {
+  color: var(--c-primary);
+}
+
+.nav-list__link:hover,
+.nav-list__link:focus {
+  color: var(--c-blue);
+}
+
+.header-contacts__link {
+  color: var(--c-primary);
+}
+
+.header-contacts__link:hover,
+.header-contacts__link:focus {
+  color: var(--c-blue);
+}
+
+.footer {
+  background-color: var(--c-bg);
+}
+
+.footer-list__link {
+  color: var(--c-footer);
+}
+
+.footer-logo span {
+  color: var(--c-blue);
+}

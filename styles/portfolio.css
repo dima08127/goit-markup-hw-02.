@@ -1,116 +1,18 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
+.buttons-list__button:hover,
+.buttons-list__button:focus {
+  background-color: var(--c-blue);
+  color: var(--c-white);
+  cursor: pointer;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 30.52px;
-  letter-spacing: 0.03em;
-  text-align: left;
+.portfolio-list__item {
+  background-color: var(--c-portfolio);
 }
 
-.nav-list {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16.41px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #212121;
+.portfolio-list__title {
+  color: var(--c-primary);
 }
 
-.nav-list__item:hover,
-.nav-list__item:focus {
-  color: #2196f3;
-}
-
-.nav-list__item {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16.41px;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
-
-.nav__number {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 16.41px;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #757575;
-}
-
-.title__list {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #212121;
-}
-
-.title__button:hover,
-.title__button:focus {
-  background: #2196f3;
-  color: #ffffff;
-}
-
-.button {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
-.h3 {
-  font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  text-align: left;
-  color: #212121;
-}
-
-.p {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #757575;
-}
-
-.photo {
-  width: 370px;
-  height: 294px;
-}
-
-.footer__title {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 30.52px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-
-.footer__contactes {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff;
+.portfolio-list__text {
+  color: var(--c-secondary);
 }
