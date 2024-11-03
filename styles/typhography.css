@@ -10,7 +10,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
-  line-height: 42.19px;
+  line-height: calc(42.19 / 36);
   letter-spacing: 0.03em;
 }
 
@@ -18,7 +18,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
-  line-height: 16.41px;
+  line-height: calc(16.41 / 14);
   letter-spacing: 0.03em;
 }
 
@@ -26,7 +26,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 18.75px;
+  line-height: calc(18.75 / 16);
   letter-spacing: 0.03em;
 }
 
@@ -34,7 +34,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
 
@@ -42,7 +42,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 18.75px;
+  line-height: calc(18.75 / 16);
   letter-spacing: 0.03em;
 }
 
@@ -50,7 +50,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  line-height: 16.41px;
+  line-height: calc(16.41 / 14);
   letter-spacing: 0.02em;
 }
 
@@ -58,31 +58,31 @@
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
 
-.hero-button {
+.l4 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: calc(30 / 16);
   letter-spacing: 0.06em;
 }
 
-.portfolio-list__title {
+.h5 {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px;
+  line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
 
-.portfolio-list__text {
+.p3 {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: calc(30 / 16);
   letter-spacing: 0.03em;
 }
 
@@ -90,6 +90,14 @@
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 30.52px;
+  line-height: calc(30.52 / 26);
+  letter-spacing: 0.03em;
+}
+
+.l5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: calc(26 / 16);
   letter-spacing: 0.03em;
 }
