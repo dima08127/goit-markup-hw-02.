@@ -4,6 +4,30 @@ body {
   color: var(--c-primary);
 }
 
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item {
+  margin-right: 50px;
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+
+.nav-list__item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header-contacts {
+  margin-left: auto;
+  display: flex;
+}
+
 .header-logo {
   color: var(--c-black);
 }
@@ -49,4 +73,16 @@ body {
 
 .footer-logo span {
   color: var(--c-blue);
+}
+
+.footer-logo {
+  padding-top: 60px;
+}
+
+.footer-list {
+  margin-top: 20px;
+}
+
+.footer-list__item:not(:first-child) {
+  margin-top: 9px;
 }

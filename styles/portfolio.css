@@ -1,3 +1,36 @@
+.container {
+  padding: 0 215px;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.buttons-list {
+  padding-top: 94px;
+  padding-bottom: 34px;
+  text-align: center;
+}
+
+.buttons-list__button:not(:first-child) {
+  margin-left: 8px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-list__item {
+  margin-right: 30px;
+
+  margin-bottom: 30px;
+
+  background-color: var(--c-portfolio);
+}
+
+.portfolio-list__item:nth-child(3n) {
+  margin-right: 0px;
+}
+
 .buttons-list__button:hover,
 .buttons-list__button:focus {
   background-color: var(--c-blue);
@@ -11,8 +44,4 @@
 
 .portfolio-list__title {
   color: var(--c-primary);
-}
-
-.portfolio-list__text {
-  color: var(--c-secondary);
 }

@@ -28,6 +28,7 @@
   font-weight: 500;
   line-height: calc(18.75 / 16);
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .p1 {
@@ -44,6 +45,7 @@
   font-weight: 400;
   line-height: calc(18.75 / 16);
   letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .l1 {
